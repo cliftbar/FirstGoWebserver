@@ -67,7 +67,7 @@ func radialDecay(rNmi float64, rMaxNmi float64) float64 {
 }
 
 
-// Calculate the coriolis factor for a given latitude
+// coriolisFrequency calculates the coriolis factor for a given latitude.
 //
 // latDeg: latitude in degrees
 //
